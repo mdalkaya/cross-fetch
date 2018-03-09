@@ -4,7 +4,7 @@
   "buildCommand": "npm run -s build",
   "requireCleanWorkingDir": false,
   "src": {
-    "push": false,
+    "push": true,
     "tagName": "v%s",
     "commitMessage": "%s",
     "tagAnnotation": "",
