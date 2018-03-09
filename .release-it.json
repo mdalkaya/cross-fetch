@@ -1,0 +1,17 @@
+{
+  "dry-run": false,
+  "non-interactive": true,
+  "buildCommand": "npm run -s build",
+  "requireCleanWorkingDir": false,
+  "src": {
+    "push": false,
+    "tagName": "v%s",
+    "commitMessage": "%s",
+    "tagAnnotation": "",
+    "beforeStartCommand": "npm run -s test",
+    "afterReleaseCommand": "# npm run -s test:sauce"
+  },
+  "npm": {
+    "publish": false
+  }
+}
